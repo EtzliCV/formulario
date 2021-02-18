@@ -1,79 +1,158 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.titulo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top:15px;
+.body {
+  background-image: linear-gradient(
+    45deg,
+    #a757ba 0,
+    #7f469d 16.67%,
+    #58337d 33.33%,
+    #321f59 50%,
+    #110a36 66.67%,
+    #00001a 83.33%,
+    #000000 100%
+  );
+}
+.titulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
 }
 
-/* Datos personales */ 
+/* Datos personales */
 
-.datos{
-    width: 400px;
-    background: cornflowerblue;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+.ingrese {
+  text-align: center;
 }
 
-.name{
-    text-transform: capitalize;
-    width: 100%;
-    background: cornflowerblue;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: 2px solid white;
+.datos {
+  width: 400px;
+  background: darkmagenta;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
 }
 
-.apodo{
-    text-transform: uppercase;
-    width: 100%;
-    background: cornflowerblue;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: 2px solid white;
+.name {
+  text-transform: capitalize;
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
 }
 
-.personal{
-    width: 100%;
-    background: cornflowerblue;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: 2px solid white;
+.apodo {
+  text-transform: uppercase;
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
 
+.personal {
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
 }
 /* Sobre Usted*/
 
-.sobre{
-    width: 400px;
-    background: crimson;
-    padding: 30px;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+.usted {
+  text-align: center;
 }
 
-.sobre2{
-    width: 100%;
-    background: crimson;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: 2px solid white;
+.sobre {
+  width: 400px;
+  background: darkmagenta;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.sobre2 {
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
 }
 
 /*Gustos Alimenticios*/
+.alimento {
+  text-align: center;
+}
+
+.gustos {
+  width: 400px;
+  background: darkmagenta;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.gustos2 {
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+/* Publicidad*/
+.publi {
+  text-align: center;
+}
+
+.publicidad {
+  width: 400px;
+  background: darkmagenta;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.info {
+  width: 100%;
+  background: rgb(240, 117, 240);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+.boton {
+  width: 100%;
+  background-color: rgb(240, 117, 240);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}

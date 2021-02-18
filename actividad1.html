@@ -12,12 +12,18 @@
 
     <form action="formulario.php" method="get">
       <section class="datos">
+        <h2 class="ingrese">Ingrese Datos Personales</h2>
+        <br />
         <label>
           Nombre <input class="name" type="text" placeholder="Nombre" />
         </label>
         <br />
         <label> Apodo <input class="apodo" type="text" /></label> <br />
         <label> Edad <input class="personal" type="number" /></label> <br />
+        <label> Sexo </label> <br />
+        <label> <input type="radio" name="sexo" /> Femenino</label> <br />
+        <label> <input type="radio" name="sexo" /> Masculino</label><br /><br />
+
         <label>
           Fecha de Nacimiento <input class="personal" type="date" />
         </label>
@@ -31,6 +37,8 @@
       </section>
 
       <section class="sobre">
+        <h2 class="usted">Sobre Usted</h2>
+        <br />
         <label>
           ¿Cuántas veces duerme al día? <br />
           <select class="sobre2">
@@ -49,13 +57,58 @@
         </label>
       </section>
 
-      <section>
+      <section class="gustos">
+        <h2 class="alimento">Gustos Alimenticios</h2>
+        <br /><br />
+        <label>
+          ¿Qué le gusta comer? <br /><br />
+          <input type="checkbox" /> Hamburguesa <br />
+          <input type="checkbox" /> Salchipapas <br />
+          <input type="checkbox" /> Pizza <br />
+          <input type="checkbox" /> Hot dog <br />
+          <input type="checkbox" /> Chorizo <br /> </label
+        ><br />
 
-        <label> <input type="text"></label>
+        <label>
+          ¿Cuántas veces al día? <br /><br />
+          <select class="gustos2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select> </label
+        ><br />
 
+        <label>¿Cuál de estas comidas prefieres?</label><br /><br />
+        <label><input type="radio" name="comida" /> Hamburguesa</label><br />
+        <label> <input type="radio" name="comida" /> Pizza</label><br />
+        <label><input type="radio" name="comida" /> Hot dog</label><br /><br />
 
+        <label
+          >Realiza Deporte... <br /><br />
+          <input type="checkbox" /> Voleibol <br />
+          <input type="checkbox" /> Futboll <br />
+        </label>
+      </section>
 
+      <section class="publicidad">
+        <h2 class="publi">Publicidad</h2>
+        <br /><br />
+        <label
+          >¿De qué le gustaría recibir información? <br /><br />
+          <select class="info">
+            <option>Restaurantes</option>
+            <option>Deportes</option>
+            <option>Cursos Gratis</option>
+            <option>Ninguna</option>
+          </select>
+        </label>
 
+        <label> <input type="checkbox" /> Acepta Términos y Condiciones</label>
+        <br /><br />
+
+        <input class="boton" type="submit" />
       </section>
     </form>
   </body>
