@@ -5,10 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Actividad 1</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <h1>Formulario</h1>
+  <body class="body">
+    <h1 class="titulo">Formulario</h1>
 
-    <form action=""></form>
+    <form action="formulario.php" method="get">
+      <section class="datos">
+        <label>
+          Nombre <input class="name" type="text" placeholder="Nombre" />
+        </label>
+        <br />
+        <label> Apodo <input class="apodo" type="text" /></label> <br />
+        <label> Edad <input class="personal" type="number" /></label> <br />
+        <label>
+          Fecha de Nacimiento <input class="personal" type="date" />
+        </label>
+        <br />
+        <label> Email <input class="personal" type="email" /> </label> <br />
+        <label>
+          Contraseña <input class="personal" type="password" maxlength="5" />
+        </label>
+        <br />
+        <label> Suba Su Foto<input type="file" accept="image/*" /></label>
+      </section>
+
+      <section class="sobre">
+        <label>
+          ¿Cuántas veces duerme al día? <br />
+          <select class="sobre2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br />
+
+          <label>
+            ¿Cuánto tiempo le dedicas al estudio?
+            <input type="number" class="sobre2"
+          /></label>
+        </label>
+      </section>
+
+      <section>
+
+        <label> <input type="text"></label>
+
+
+
+
+      </section>
+    </form>
   </body>
 </html>

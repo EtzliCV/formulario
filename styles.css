@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top:15px;
+}
+
+/* Datos personales */ 
+
+.datos{
+    width: 400px;
+    background: cornflowerblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.name{
+    text-transform: capitalize;
+    width: 100%;
+    background: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.apodo{
+    text-transform: uppercase;
+    width: 100%;
+    background: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.personal{
+    width: 100%;
+    background: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+
+}
+/* Sobre Usted*/
+
+.sobre{
+    width: 400px;
+    background: crimson;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sobre2{
+    width: 100%;
+    background: crimson;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+/*Gustos Alimenticios*/
